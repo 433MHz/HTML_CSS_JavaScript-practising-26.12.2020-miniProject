@@ -2,6 +2,8 @@ body
 {
     background-color: rgb(20, 20, 20);
     margin: 0px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #topBar
@@ -14,8 +16,67 @@ body
 
 #topBarContent
 {
-    width: 1000px;
+    width: 1200px;
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.topBarContentButton
+{
+    float: left;
+    width: 90px;
+    height: 33px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.topBarContentButton:hover
+{
+    border-bottom: 2px solid white;
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+}
+
+.topBarContentButtonRight
+{
+    float: right;
+    width: 60px;
+    height: 33px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.topBarContentButtonRight:hover
+{
+    border-bottom: 2px solid white;
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+}
+
+#container
+{
+    margin-top: 5px;
+    width: 1200px;
+    height: 10000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerBox
+{
+    margin-bottom: 5px;
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    border-left: 3px solid rgb(255, 102, 0);
+}
+
+.imageBox
+{
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    float: left;
 }
